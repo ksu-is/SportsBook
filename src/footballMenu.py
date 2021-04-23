@@ -481,7 +481,7 @@ def benchmark(fixture, football_data):
         return
     fb.benchmark_analysis(fixture, football_data)
     
-        
+       
 def reports(football_data):
     """
     The reports menu.
@@ -560,7 +560,9 @@ def reports(football_data):
             else:
                 print("\nNo predictions found.\n")
         selection = ""
-
+def quick_match(football_data):
+#starting a option to instanly retreive todays games
+    report_options = [["(1) Done return back", "1"]]
 
 def football_menu(football_data):
     """
@@ -585,6 +587,7 @@ def football_menu(football_data):
                             ["(8) Clear current prediction data", "8"],
                             ["(9) Clear all data", "9"],
                             ["(10) Change data source to " + next_data_source + " (CLEARS ALL DATA)", "10"],
+                            ["(R) Quick display selected leagues", "r",quick_match],
                             ["(Q) Quit", "q", leave]
                             ]
         
@@ -782,7 +785,9 @@ def football_menu(football_data):
                 football_data["results"] = []
                 selection = ""
                 continue
-                
+             #if selection == "r": #here we will set up the quick match
+                #print("wow it worked")  
+                #continue
             # General action for other menu items
             if selection == option[1]:
                 option[2](football_data["league_data"])
