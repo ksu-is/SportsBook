@@ -6,7 +6,7 @@
 # Check For Errors 4/13-4/14
 * Fix potential errors that come
 
-# begin implementing the college football bets
+# begin implementing more faeatures to menu
 * Work on adding code
 * Find out if any website is applicable
 * Work on formating
