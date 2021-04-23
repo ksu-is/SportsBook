@@ -10,3 +10,4 @@
 * Work on adding code
 * Find out if any website is applicable
 * Work on formating
+* working on getting the json files to be reconized 
