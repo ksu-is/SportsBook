@@ -50,4 +50,4 @@ https://join.slack.com/t/sportsbookgroup/shared_invite/enQtNDc4MjYwNzMwNzg4LTAzM
 
 It'd be great to hear from you so please pop in and say hi!
 # Future Features
-Add College Football to the options.  possibly with filters by confrence 
+adding quick options as a short cut for todays matches
