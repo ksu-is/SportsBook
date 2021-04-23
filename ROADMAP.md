@@ -11,3 +11,5 @@
 * Find out if any website is applicable
 * Work on formating
 * working on getting the json files to be reconized 
+* got json files working nopw working on adding annother option
+* added a quick display button while seeing how it works with the menu
